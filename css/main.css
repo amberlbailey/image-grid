@@ -21,6 +21,10 @@ img {
   display: inline;
 }
 
+body {
+  margin: 0;
+}
+
 @media only screen and (min-width: 20em) {
 
 
@@ -40,5 +44,42 @@ img {
   img:nth-child(5) {
     display: none;
   }
+
+}
+
+@media only screen and (min-width: 25em) {
+
+  img {
+    width: 50%;
+  }
+
+  img:nth-child(1) {
+    width: 100%;
+    float: left;
+  }
+
+  img:nth-child(2) {
+    display: block;
+    float: left;
+  }
+
+  img:nth-child(3) {
+    float: right;
+  }
+
+  img:nth-child(4) {
+    float: left;
+  }
+
+  img:nth-child(5) {
+    display: block;
+    float: right;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+
 
 }
