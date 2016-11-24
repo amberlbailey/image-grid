@@ -80,6 +80,18 @@ body {
 
 @media only screen and (min-width: 38em) {
 
+  img{
+    display:inline-block;
+    width: 33.33%;
+    float:left;
+  }
 
+  img:nth-child(3) {
+    float:left;
+  }
+
+  img:nth-child(5) {
+    display: none;
+  }
 
 }
