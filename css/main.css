@@ -18,7 +18,7 @@ html {
 }
 
 img {
-  display: inline;
+  display: block;
 }
 
 body {
@@ -82,7 +82,7 @@ body {
 
   img{
     display:inline-block;
-    width: 33.33%;
+    width: 33.3333%;
     float:left;
   }
 
@@ -92,6 +92,21 @@ body {
 
   img:nth-child(5) {
     display: none;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  img:nth-child(1) {
+    width: 66.6666%;
+    display: inline-block;
+    float: left;
+  }
+
+  img:nth-child(5) {
+    display: inline-block;
+    float: left;
   }
 
 }
